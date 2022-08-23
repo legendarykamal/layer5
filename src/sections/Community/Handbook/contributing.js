@@ -6,7 +6,7 @@ import Code from "../../../components/CodeBlock";
 import TocPagination from "../../../components/handbook-navigation/TocPagination";
 import IntraPage from "../../../components/handbook-navigation/intra-page";
 import { StaticImage } from "gatsby-plugin-image";
-
+// import Signoff from  "../../../../.github/assets/images/git-signoff-vscode.png";
 const contents = [
   { id: 0, link: "#Clone your fork", text: "Clone your fork" },
   { id: 1, link: "#Checkout a new branch", text: "Checkout a new branch" },
@@ -194,7 +194,7 @@ const contributingGuide = () => {
             Or you may configure your IDE, for example, Visual Studio Code to
             automatically sign-off commits for you:
           </p>
-          <StaticImage src={ Signoff } width="74%" id="sign-off" alt="Signoff" />
+          <StaticImage src={ Signoff } style={{width:"100%"}} id="sign-off" alt="Signoff" />
           <TocPagination />
         </Container>
 
